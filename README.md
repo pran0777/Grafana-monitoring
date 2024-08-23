@@ -43,6 +43,7 @@ docker run -d --name=prometheus -p 9090:9090 -v <PATH_TO_prometheus.yml_FILE>:/e
 [Verify]
 
 docker-compose up -d
+
 docker-compose ps
 
 
